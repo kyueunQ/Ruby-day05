@@ -1,0 +1,15 @@
+<table>
+    <thead>
+        <th>번호</th>
+        <th>id</th></th>
+    </thead>
+    <tbody>
+        <% @user.each do |a| %>
+        <tr>
+            <td><%= a[0] %></td>
+            <td><%= a[1] %></td>
+            <td></td>
+        </tr>
+        <% end%>
+    </tbody>
+</table>
